@@ -1,0 +1,11 @@
+n = input('Digite algo no teclado:')
+print('\nInformações do que foi escrito:\n')
+print('Tipo primitivo:', type(n))
+print('É alfanúmerico?', n.isalnum())
+print('É númerico?', n.isnumeric())
+print('Pertence ao alfabeto?', n.isalpha())
+print('É decimal?', n.isdecimal())
+print('Está em maiusculo?', n.isupper())
+print('Está em minusculo?', n.islower())
+print('É um espaço?', n.isspace())
+print("Está capitalizado?", n.istitle()) #tem letras maiusculas e minusculas

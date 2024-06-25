@@ -1,0 +1,5 @@
+cidade = str(input('Digite o nome da sua cidade: ')).strip()
+minusculo = cidade.lower()
+verificacao = minusculo.split()
+verificacao1 = ('santo' in verificacao [0]) 
+print(f'A cidade começa com a palavra "Santo"? \nResposta: {verificacao1} ')
